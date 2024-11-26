@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css files -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- css main style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="d-flex justify-content-center align-items-center">
+    <div class="login text-center py-3 px-4">
+      <p class="t_login text-uppercase fw-semibold mt-3">Login</p>
+      <input
+        type="email"
+        class="input mt-5 mb-2 form-control"
+        id="l-email"
+        placeholder="Enter your email"
+      />
+      <span class="wEmail text-bg-danger rounded-3 p-2 d-none"> Wrong Email</span>
+      <input
+        type="password"
+        class="input form-control mb-2  mt-5"
+        id="l-password"
+        placeholder="Enter your password"
+      />
+      <span class="wPassword text-bg-danger rounded-3 p-2 d-none"> Wrong Password</span>
+      <span class="noAccount text-bg-danger rounded-3 p-2 d-none"> You don't have account</span>
+      <button id="login" type="submit"  class="btn py-2 my-5 rounded-5">Login</button>
+
+      <p class="account">Don’t have an account? <a href="html/signUp.html"> Sign Up</a></p>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <script  src="js/login.js"></script>
+  </body>
+</html>

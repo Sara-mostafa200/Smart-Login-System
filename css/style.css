@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    background-image: url(../images/Login.png);
+    background-size: cover;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.login{
+    background-color: #0000005b;
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 90%;
+    
+}
+
+.login .t_login{
+   font-size: 32px;
+
+}
+
+.login .input{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+    color: white;
+    
+}
+
+.login .input::placeholder{
+    color: white !important;
+}
+
+
+.form-control:focus {
+  
+    border-color:none;
+    outline: 0;
+    box-shadow: none;
+}
+
+button{
+    background-color: #DB5F19 !important;
+    color: white !important;
+    padding-left:70px !important;
+    padding-right:70px !important;
+
+
+
+}
+
+.login  a{
+    text-decoration: none;
+    color: white;
+}
+
+.login .account a:hover{
+    text-decoration:underline;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .login{
+        width: 50%;
+    }
+}
+
